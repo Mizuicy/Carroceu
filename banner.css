@@ -1,0 +1,38 @@
+.banner{
+    background-image: url(FUNDO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-light .navbar-brand{
+    color: #ffebd2;
+    font-size: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #ffebd2;
+    padding: 0 20px 0 0;
+}
+.ConteudoParagrafo{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo ciruculo";
+    grid-template-columns: 
+    1fr 1fr;
+}
+.paragrafo{
+    align-self: center;
+    color:#ffebd2;
+    font-size: 20px;
+    padding: 0 0 0 70px;
+}
+    
+.circulo{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background-image: url(mulher.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
